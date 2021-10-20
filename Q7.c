@@ -14,7 +14,7 @@ int main (void){
         j++;
 
        if(j >= n) 
-        break;   
+        break;
     }
 
     if(k == 0)
