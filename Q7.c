@@ -13,7 +13,7 @@ int main (void){
         k = n % j;
         j++;
 
-       if(j >= n) 
+       if(j >= n)
         break;
     }
 
