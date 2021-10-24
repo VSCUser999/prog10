@@ -7,9 +7,15 @@ int main (void){
     while(k != 0){
 
         if(n == 1){
-           printf("NO\n");
-            return 0;
+            k = 0;
+            break;
         }
+
+        if(n == 2){
+            k = 1;
+            break;
+        }
+
         k = n % j;
         j++;
 
